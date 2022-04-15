@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<test name="ChromeTest"  thread-count="1" >
+  <parameter name="browserName" value="chrome"> </parameter>
+    <classes>
+      <class name="com.sauceDemo.TESTclasses.TC06ItemBuyComplete"/>
+      <class name="com.sauceDemo.TESTclasses.TC05OrderFunctionality"/>
+      <class name="com.sauceDemo.TESTclasses.TC02AddToCartFunctionality"/>
+      <class name="com.sauceDemo.TESTclasses.TC04checkoutFunctionality"/>
+      <class name="com.sauceDemo.TESTclasses.TC03LogOutFunctionality"/>
+      <class name="com.sauceDemo.TESTclasses.TC01LoginFunctionality"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
